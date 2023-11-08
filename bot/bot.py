@@ -1,5 +1,5 @@
 import asyncio
-from . import bot, dp, logger
+from . import bot, dp, logger, handlers
 
 
 def on_startup(_):
