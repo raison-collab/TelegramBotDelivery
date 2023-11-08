@@ -1,8 +1,10 @@
 from enum import Enum
 
 
-class Cookies(Enum):
+class PATH(Enum):
     """
     Пути относительно корня проекта
     """
-    yandex_lavka = 'cookies/yandex_lavka.json'
+    USERS = 'users/users.json'
+    COOKIES = 'cookies/yandex_lavka.json'
+

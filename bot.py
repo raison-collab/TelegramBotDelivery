@@ -2,7 +2,7 @@ import asyncio
 
 from loguru import logger
 
-from loader import dp, bot, config
+from loader import dp, bot
 
 import handlers
 

@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
-from dotenv import load_dotenv, dotenv_values
+from dotenv import dotenv_values
 
 config = dotenv_values('.env')
 
