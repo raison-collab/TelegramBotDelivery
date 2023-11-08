@@ -3,8 +3,8 @@ from aiogram.types import Message
 from loguru import logger
 
 from enums import PATH, URLS
-from loader import dp
-import parser
+from bot.loader import dp
+from bot import parser
 
 
 @dp.message(Command('ЯндексЛавка'))

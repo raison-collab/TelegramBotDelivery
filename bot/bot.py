@@ -1,10 +1,5 @@
 import asyncio
-
-from loguru import logger
-
-from loader import dp, bot
-
-import handlers
+from . import bot, dp, logger
 
 
 def on_startup(_):
@@ -19,6 +14,6 @@ async def main():
     await dp.start_polling(bot)
 
 
-if __name__ == '__main__':
+def run():
     logger.success('Bot Started')
     asyncio.run(main())

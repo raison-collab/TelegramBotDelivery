@@ -1,7 +1,5 @@
 import json
 from time import sleep
-
-from loguru import logger
 from selenium.webdriver import Chrome
 
 from selenium.common import NoSuchElementException
@@ -9,6 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
+
+from . import logger
 
 
 def __wait_such_element(

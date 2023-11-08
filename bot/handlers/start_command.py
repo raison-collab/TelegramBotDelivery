@@ -5,8 +5,8 @@ from aiogram.types import Message
 from loguru import logger
 
 from enums import PATH
-from keyboards.reply_kbs import start_keyboard
-from loader import dp
+from bot.keyboards.reply_kbs import start_keyboard
+from bot.loader import dp
 
 
 @dp.message(CommandStart())
