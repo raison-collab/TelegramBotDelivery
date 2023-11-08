@@ -1,7 +1,7 @@
 import json
 from enums import PATH
 from . import logger
-from .models.user import User
+from .models import User
 
 
 def __parse_users_from_file() -> list[User]:

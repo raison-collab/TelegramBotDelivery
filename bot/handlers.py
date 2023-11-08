@@ -1,11 +1,10 @@
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message
-
-from bot.keyboards.reply_kbs import start_keyboard
 from enums import URLS, PATH
 
 from . import dp, parser, logger, accept_control
-from .models.user import User
+from .keyboards import start_keyboard
+from .models import User
 
 
 @dp.message(CommandStart())
